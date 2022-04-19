@@ -1,0 +1,72 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #F8F9FA;
+}
+
+.form-signup {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signup .checkbox {
+    font-weight: 400;
+}
+
+.form-signup .form-floating:focus-within {
+    z-index: 2;
+}
+
+.top {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.middle {
+    margin-bottom: -1px;
+    border-radius: 0;
+}
+
+.bottom {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.rounded-3{
+    margin: 0 auto;
+}
+
+.success {
+    background-color: aquamarine;
+    width: 40rem;
+    padding-left: 5em;
+    box-shadow: 1px 1px black;
+    border-radius: 1em;
+}
+
+.btn-success {
+    background-color: aqua;
+}
+
+.failure {
+    background-color: pink;
+    width: 40rem;
+    padding-left: 5em;
+    box-shadow: 1px 1px black;
+    border-radius: 1em;
+}
+
+.btn-failure {
+    background-color: lightcoral;
+}
